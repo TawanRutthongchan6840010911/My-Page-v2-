@@ -1,0 +1,266 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f7fbfc;
+  color: #333333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 45px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.profile-header-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+.profile-img-cell {
+  width: 170px;
+  vertical-align: middle;
+  padding-right: 35px; 
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #66bfbf;
+  box-shadow: 0 4px 10px rgba(102, 191, 191, 0.3);
+}
+
+.profile-info-cell {
+  vertical-align: middle;
+}
+
+.profile-info-cell h1 {
+  font-size: 1.8rem;
+  color: #11999e;
+  margin-bottom: 6px;
+}
+
+.profile-info-cell p {
+  font-size: 0.95rem;
+  color: #555555;
+  margin-bottom: 4px;
+}
+
+.profile-info-cell .Name {
+  font-weight: 500;
+  color: #30e3ca;
+  background: #e4f9f5;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.divider {
+  border: none;
+  border-top: 5px dotted #eaf6f6;
+  width: 60px;
+  margin: 30px auto;
+}
+
+.section-box {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.35rem;
+  color: #11999e;
+  margin-bottom: 12px;
+}
+
+.fav-foods {
+  padding-left: 24px;
+}
+
+.fav-foods li {
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #dcebec;
+}
+
+.experience-table th {
+  background-color: #39424e;
+  color: #ffffff;
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.experience-table td {
+  padding: 10px 14px;
+  border-top: 1px solid #eef2f3;
+  color: #444;
+}
+
+.experience-table tr:nth-child(even) {
+  background-color: #fbfdfe;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 12px 8px;
+  margin-top: 5px;
+}
+
+.skills-table td {
+  padding: 8px 12px;
+  background-color: #f7fcfc;
+  border-radius: 8px;
+}
+
+.skills-table .skill-name {
+  font-weight: 500;
+  color: #2c3e50;
+  width: 30%;
+}
+
+.skills-table .skill-stars {
+  width: 20%;
+  font-size: 0.95rem;
+}
+
+.cta-center {
+  text-align: center;
+  margin: 35px 0 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #11999e;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 4px 12px rgba(17, 153, 158, 0.25);
+}
+
+.btn:hover {
+  background-color: #0e8387;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(17, 153, 158, 0.35);
+}
+
+.btn-secondary {
+  background-color: #a0aab2;
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #8c969e;
+  box-shadow: none;
+}
+
+.back-link-box {
+  margin-bottom: 20px;
+}
+
+.back-link {
+  color: #11999e;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.sub-text {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  border: 1px solid #ccdcdc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #11999e;
+  box-shadow: 0 0 0 3px rgba(17, 153, 158, 0.15);
+}
+
+.form-btn-group {
+  margin-top: 25px;
+}
+
+/* Footer & ลิงก์ */
+footer {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+footer a {
+  color: #11999e;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
